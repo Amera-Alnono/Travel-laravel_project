@@ -1,0 +1,29 @@
+
+:root{
+    --mainFont: 'Source Sans 3', sans-serif;
+}
+body{
+    font-family: var(--mainFont);
+}
+.at{
+    margin-top: 40px;
+    left: 20px;
+}
+.i2 {
+    right: 20px;
+    padding-top:10px ;
+}
+a{
+    text-decoration: none;
+}
+.flag{
+    margin-top: 49px;
+    left: 5px;
+}
+@media (max-width:767px) {
+    
+    .login .card {
+        width: 100% !important;
+    }
+    
+    }

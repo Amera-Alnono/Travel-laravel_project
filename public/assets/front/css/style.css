@@ -1,0 +1,157 @@
+:root{
+    --dark-color:#FF5403;
+    --green-color:#292b9648;
+    /* --red-color:#ff3510; */
+    --yellow-color:#ffc400;
+    --section-color:#eff7fa;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+.btn{
+    background-color: var(--dark-color);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.navbar {
+       background-color:white;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.562);
+  }
+  .navbar .navbar-nav .nav-link.active,
+  .navbar .navbar-nav .nav-link:focus,
+  .navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+ }
+ .header{
+  background-image: url(../img/banner_bg\ 1.png);
+  color: white;
+ }
+ .nav .nav-tabs{
+  background-color: white
+ }
+ .tab-content{
+  background-color: white
+ }
+.nav-item{
+  background-color: white;
+}
+.section1{
+  background-color:var(--section-color);
+}
+.Bali{
+  background-color: white;
+}
+.event{
+  color: #FF5403;
+}
+bali.{
+  color:#041562;
+}
+.section3{
+  background-color: var(--section-color);
+}
+.btn1{
+  background-color: #2D93EA;
+  border: none;
+}
+.section4{
+  background-color: #041562;
+  color: white;
+}
+.dropstart{
+  padding-left: 300px;
+}
+.card2{
+  background-color: #3045A599;
+  color: white;
+}
+.footer{
+  background-color: #19224D;
+  color: white
+}
+.social{
+  color: #FF5403;
+}
+.copyright{
+  background-color: #000B3E;
+}
+.header2{
+  background-image: url(../img/banner_bg\ 1.png);
+  color: white;
+}
+.who{
+  color: #FF5403;
+}
+.h4{
+  color: #041562;
+}
+.backGroundcolor{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 410px;
+    width: 440px;
+    top: 20%;
+    right: 17%;
+}
+
+.Plan a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.backGroundcolor{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 410px;
+    width: 440px;
+    top: 20%;
+    right: 17%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f08e8e80;
+    color: #FF5403;
+    height: 8%;
+    width: 19%;
+    border-radius: 44%;
+}
+.ss{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 25%;
+    right: 13%;
+}
+.ss1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 5%;
+}
+@media (max-width:767px) {
+    .backGroundcolor {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 329px;
+        height: 400px;
+        font-size: 14px;
+   }
+}
+
+.section4 .card2{
+ min-height: 230px;
+
+}

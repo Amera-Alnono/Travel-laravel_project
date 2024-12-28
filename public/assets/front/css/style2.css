@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainFont: 'Source Sans 3', sans-serif;
+}
+
+body{
+ font-family: var(--mainFont);
+}
+.face{
+    left: 12px;
+    margin-top: 3px;
+    color: #0d0dc9;
+}
+.icon-google{
+    left: 12px;
+    margin-top: 3px;
+}
+.i2 {
+    right: 20px;
+    padding-top:10px ;
+}
+.at{
+    left: 10px;
+    margin-top: 7px;
+    color: #6c6767;
+}
+.at2{
+    left: 10px;
+    margin-top: 7px;
+    color: #6c6767;
+    top: 21%;
+}
+a{
+    text-decoration: none;
+}
+.flag{
+    left: 6px;
+    margin-top: 11px;
+}
+
+.check{
+    text-align: left;
+}
+.line{
+    border-bottom: 1px solid #EDEDED;
+    width: 39%;
+    height: 1px;
+}
+.Copyright a{
+   text-decoration: none;
+}
+/* .icom i{
+    height: 33px;
+    width: 52px;
+}
+.twitter{
+    background-color: blueviolet;
+} */
+@media (max-width:767px) {
+
+.login .card {
+    width: 100% !important;
+}
+.register .card{
+    width: 100% !important;
+}
+
+}
+.Plan a{
+    text-decoration: none;
+}
+
+.TravelBuddy a{
+    text-decoration: none;
+}
+.line-content{
+    font-size: 3px;
+}
+.user{
+    margin-top: 10px;
+    left: 25px;
+    color: #6c6767;
+}
+
+footer{
+    background-color:#19224D;
+}
+.btn{
+    background-color: #FF5403;
+    color: #fff;
+    font-size: 15px;
+}
+.home img{
+    height: 41px;
+    width: 40px;
+}
+.backGroundcolor{
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 410px;
+    width: 440px;
+    top: 20%;
+    right: 17%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #f08e8e80;
+    color: #FF5403;
+    height: 8%;
+    width: 19%;
+    border-radius: 44%;
+}
+.ss{
+    top: 25%;
+    right: 13%;
+}
+.ss1{
+    top: 5%;
+}
+@media (max-width:767px) {
+    .backGroundcolor {
+        width: 329px;
+        height: 400px;
+        font-size: 14px;
+   }
+}
+
+.slider{
+    background-image: url('../img/event_bg_1.png');
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
